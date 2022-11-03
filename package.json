@@ -1,0 +1,25 @@
+{
+  "name": "true-locals-api",
+  "version": "0.0.1",
+  "description": "API for true locals",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "API",
+    "NodeJS",
+    "WebSocket"
+  ],
+  "author": "Finn Kiesinger",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.3"
+  }
+}
